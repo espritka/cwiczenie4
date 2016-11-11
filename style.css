@@ -1,0 +1,78 @@
+body {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+h1, h3, #footer {
+  color: #D6B47E;
+}
+
+h2, h3 {
+  display: inline-block;
+  margin: 5px;
+}
+
+h1 {
+  font-size: 40px;
+  width: 100%;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 1.75rem;
+  color: white;
+  background-color: #D6B47E;
+  padding: 3px 10px;
+}
+
+h3 {
+  font-weight: 800;
+  background-color: white;
+  padding: 10px 25px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero {
+  background-image: url("img/cafe.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 960px;
+  min-height: 420px;
+}
+
+.supporting-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 45px 0 0 0;
+}
+
+.supporting-container div {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+  min-width: 450px;
+  min-height: 345px;
+}
+
+.upcoming {
+  background-image: url("img/events.jpg");
+}
+.roast {
+  background-image: url("img/roast.jpg");
+}
+
+#footer {
+  font-size: 1.25rem;
+  font-weight: 300;
+  width: 100%;
+}
